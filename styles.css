@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "5432342";
+  align-items: center
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .bg-gradient-radial-custom {
+    background-image: radial-gradient(circle, #0C2749, #0D2446, #1B407B, #102E59, #0D274A);
+  }
+}
+}
+

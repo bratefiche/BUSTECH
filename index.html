@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+  <title>Projeto Transporte</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="bg-[#261AA1] h-[60px]">
+    <div class="flex justify-between container mx-auto items-center h-full text-white">
+      <h1>Transporte Autônomo e Inteligente</h1>
+      <nav>
+        <ul class="flex space-x-10 text-white">
+          <li>Saiba Mais</li>
+          <li>Contato</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container" style="margin-left: 40px ; background:#fff">
+    <main class="mt-10">
+      <div class="flex container mx-auto h-[100%]">
+        <img src="" alt="" />
+        <div class="w-[50%] h-full">
+          <div class="p-8 rounded-lg max-w-md mx-auto h-full flex items-center justify-center flex-col">
+            <h2 class="text-2xl font-bold mb-4 text-center">Inscreva-se!</h2>
+            <p class="text-gray-600 mb-6 text-center display: flex">
+              Receba as últimas atualizações diretamente no seu e-mail.
+            </p>
+            <form action="seu_script_de_inscricao.php" method="POST" class="flex flex-col space-y-4">
+              <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required
+                class="p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+              <button type="submit"
+                class="bg-blue-500 text-white font-semibold py-3 rounded-lg hover:bg-blue-600 transition duration-300 ease-in-out">
+                Inscrever-se
+              </button>
+            </form>
+          </div>
+        </div>
+        <div> <img src="bustech.png" alt="Ônibus Elétrico" style="width: 100%; max-width: 900px;"></div>
+      </div>
+      <section class="text-center mb-10">
+        <p class="text-lg">Descubra como os ônibus elétricos estão transformando o transporte urbano com eficiência e
+          sustentabilidade.</p>
+      </section>
+
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Objetivos</h2>
+        <ul class="list-disc list-inside">
+          <li>Implementar um sistema <strong>Transporte Autônomo e Inteligente</strong>.</li>
+          <li>Melhorar a <strong>Gestão do Tráfego Urbano</strong>.</li>
+          <li>Promover a Sustentabilidade e a <strong>Redução de Emissões </strong>.</li>
+        </ul>
+      </section>
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Tecnologia</h2>
+        <p>Nossos ônibus utilizam inovações em tecnologia de bateria e motorização elétrica, como:</p>
+        <ul class="list-disc list-inside">
+          <li>Baterias de lítio de alta capacidade.</li>
+          <li>Sistemas de recarga rápida.</li>
+          <li>Otimização de rotas com inteligência artificial.</li>
+        </ul>
+      </section>
+
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Comparação com Ônibus Convencionais</h2>
+        <table class="min-w-full bg-white border border-gray-300">
+          <thead>
+            <tr class="bg-blue-500 text-white">
+              <th class="py-2 px-4 border">Característica</th>
+              <th class="py-2 px-4 border">Ônibus Elétricos</th>
+              <th class="py-2 px-4 border">Ônibus Convencionais</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-gray-100">
+              <td class="py-2 px-4 border">Emissão de Poluentes</td>
+              <td class="py-2 px-4 border">Zero</td>
+              <td class="py-2 px-4 border">Alta</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="py-2 px-4 border">Custo de Combustível</td>
+              <td class="py-2 px-4 border">Menor</td>
+              <td class="py-2 px-4 border">Maior</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="py-2 px-4 border">Nível de Ruído</td>
+              <td class="py-2 px-4 border">Baixo</td>
+              <td class="py-2 px-4 border">Alto</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="py-2 px-4 border">Custo de Manutenção</td>
+              <td class="py-2 px-4 border">Baixo</td>
+              <td class="py-2 px-4 border">Alto</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="mb-10">
+        <h2 class="text-2xl font-semibold mb-4">Fique Atualizado!</h2>
+        <p>Inscreva-se na nossa newsletter para receber novidades sobre ônibus elétricos.</p>
+        <form action="#" class="flex justify-center mt-4">
+          <input type="email" placeholder="Seu email" required class="border border-gray-300 p-2 rounded-l">
+          <button type="submit" class="bg-blue-600 text-white p-2 rounded-r">Inscrever-se</button>
+        </form>
+      </section>
+    </main>
+    <footer class="bg-blue-700 text-white py-3">
+      <p>&copy; 2024 Ônibus Elétrico. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+</body>
+
+</html>
